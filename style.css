@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: red;
+    background-color: rgb(106, 118, 95)(128, 255, 0);
     overflow: hidden;
 }
 
@@ -23,18 +23,17 @@ body{
     width: 200px;
     height: 200px;
     bottom: 0;
-    left: 2px;
+    left: 52px;
     position: absolute;
 
 }
 
 .obstacle{
     background-image: url(img/obstacle.png);
-    background-repeat: no-repeat;
     background-size: cover;
     width: 200px;
     height: 200px;
-    left: 88vw;
+    left: 44vw;
     bottom: 0;
     position: absolute;
 }
@@ -63,6 +62,15 @@ body{
     top: 31px;
     border: 2px solid black;
     padding: 10px;
+    border-radius: 10px;
+}
+
+#text{
+    border: 3px solid rgb(255, 255, 255);
+    margin-top: 25px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 20px;
     border-radius: 10px;
 }
 
